@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.flyingkiwi-tools/app-store-trends-app-ideas",
+  "title": "App Store Top Charts, Reviews & App Ideas (by flyingkiwi)",
+  "description": "Apple App Store top charts by country and category, rank changes, review themes and AI app ideas.",
+  "repository": {
+    "url": "https://github.com/flyingkiwi-tools/apify-mcp-tools",
+    "source": "github",
+    "subfolder": "app-store-trends-app-ideas"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://apify.com/flyingkiwi/app-store-trends-app-ideas",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=flyingkiwi/app-store-trends-app-ideas",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Clients with OAuth sign in to Apify instead. Otherwise Bearer followed by your Apify API token.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
