@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.flyingkiwi-tools/document-to-markdown",
+  "title": "PDF to Markdown & Document Converter (by flyingkiwi)",
+  "description": "PDF, Word, PowerPoint, Excel, HTML and EPUB to clean Markdown for RAG, with OCR. Pay per document.",
+  "repository": {
+    "url": "https://github.com/flyingkiwi-tools/apify-mcp-tools",
+    "source": "github",
+    "subfolder": "document-to-markdown"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://apify.com/flyingkiwi/document-to-markdown",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=flyingkiwi/document-to-markdown",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Clients with OAuth sign in to Apify instead. Otherwise Bearer followed by your Apify API token.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
