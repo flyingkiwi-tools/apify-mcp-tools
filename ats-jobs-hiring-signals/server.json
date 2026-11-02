@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.flyingkiwi-tools/ats-jobs-hiring-signals",
+  "title": "Greenhouse, Lever & Ashby Jobs (by flyingkiwi)",
+  "description": "Open jobs from Greenhouse, Lever, Ashby and 4 more ATSs in one schema, with new-job monitoring.",
+  "repository": {
+    "url": "https://github.com/flyingkiwi-tools/apify-mcp-tools",
+    "source": "github",
+    "subfolder": "ats-jobs-hiring-signals"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://apify.com/flyingkiwi/ats-jobs-hiring-signals",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=flyingkiwi/ats-jobs-hiring-signals",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Clients with OAuth sign in to Apify instead. Otherwise Bearer followed by your Apify API token.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
